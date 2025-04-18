@@ -1,0 +1,91 @@
+.weather-container {
+    padding: 40px;
+    text-align: center;
+    background: #f1faff;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0077b6;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .search-bar button {
+    padding: 10px 16px;
+    margin-left: 10px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #005f8e;
+  }
+  
+  .weather-card {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 16px;
+    padding: 25px 30px;
+    max-width: 500px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .weather-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .weather-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .info-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e1f4fe;
+    border-left: 5px solid #0077b6;
+    border-radius: 8px;
+  }
+  
+  .info-box h4 {
+    margin-bottom: 8px;
+    color: #004e7c;
+  }
+  
+  .info-box ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    color: #333;
+  }
+  
+  .error-msg {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .session-greeting {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0077b6;
+    margin-bottom: 10px;
+  }
+    
